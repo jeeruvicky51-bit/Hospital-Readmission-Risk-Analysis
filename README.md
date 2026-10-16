@@ -58,7 +58,6 @@ Real-world data is messy and the cleaning decisions change the answer:
 | 5 | Built lookup tables for discharge and admission IDs | Numeric codes become readable business labels |
 | 6 | Engineered `age_midpoint` | Enables ordered age analysis |
 
-<p align="center"><img src="images/funnel.png" width="620" alt="Data funnel from raw encounters to analytic cohort"></p>
 
 ## 🛠️ SQL Techniques Showcased
 
