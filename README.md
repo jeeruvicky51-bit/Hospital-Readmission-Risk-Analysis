@@ -24,17 +24,16 @@ This project analyzes diabetic patient encounters from 130 U.S. hospitals (1999-
 ### 1. Prior inpatient history is the strongest predictor
 Readmission climbs steadily with every prior inpatient stay in the previous year (chi-square p < 0.001).
 
-<p align="center"><img src="images/prior.png" width="650" alt="Readmission rate by prior inpatient visits"></p>
 
 ### 2. Discharge destination matters
 Patients transferred to another care setting return far more often than those discharged home (6.9%).
 
-<p align="center"><img src="images/discharge.png" width="650" alt="Readmission rate by discharge disposition"></p>
+
 
 ### 3. Diagnosis category: injury and circulatory lead
 Using ICD-9 range bucketing and a correlated subquery, only categories **above the 9.0% population average** were surfaced.
 
-<p align="center"><img src="images/diag.png" width="420" alt="Readmission rate by primary diagnosis"></p>
+
 
 ### 4. Process signals are real but smaller
 | Signal | Result |
